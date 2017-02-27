@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".BloodGroupActivity"></activity>
     </application>
 
 </manifest>

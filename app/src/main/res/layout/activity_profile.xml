@@ -120,9 +120,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEditProfile"
+        android:id="@+id/btnRequestDonation"
         android:background="@color/colorPrimaryDark"
-        android:text="Edit Profile"
+        android:text="Request Donation"
         android:textColor="#fff"
         android:layout_alignParentBottom="true" />
 </RelativeLayout>
