@@ -33,19 +33,17 @@
                 android:orientation="vertical"
                 android:layout_weight="1"
                 android:gravity="center">
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@android:drawable/ic_menu_share"
-                    android:tint="@color/colorPrimaryDark"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    />
+                    android:text="{faw-thumbs-up}"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="60sp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textColor="@color/colorPrimaryText"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"/>
@@ -57,18 +55,17 @@
                 android:orientation="vertical"
                 android:layout_weight="1"
                 android:gravity="center">
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@android:drawable/ic_dialog_email"
-                    android:tint="@color/colorPrimaryDark"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"/>
+                    android:text="{faw-tint}"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="60sp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textColor="@color/colorPrimaryText"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"/>
