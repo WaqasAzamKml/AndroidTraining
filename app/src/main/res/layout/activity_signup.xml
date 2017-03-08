@@ -19,40 +19,55 @@
             android:id="@+id/upperSection"
             android:orientation="vertical">
             <EditText
+                android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:singleLine="true"
                 android:hint="Enter Name"/>
+            <Spinner
+                android:id="@+id/spnGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
             <EditText
+                android:id="@+id/etAge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Gender"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="2"
                 android:hint="Age"/>
-            <EditText
+            <Spinner
+                android:id="@+id/spnBloodGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Blood Group"/>
             <EditText
+                android:id="@+id/etPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="phone"
                 android:hint="Phone Number"/>
             <EditText
+                android:id="@+id/etCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="City"/>
             <EditText
+                android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
                 android:hint="Email"/>
             <EditText
+                android:id="@+id/etPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
                 android:hint="Enter Password"/>
             <EditText
+                android:id="@+id/etRepeatPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
                 android:hint="Repeat Password"/>
             <Button
                 android:layout_width="match_parent"
