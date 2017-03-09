@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        //Comment
 
         btnRegister = (Button) findViewById(R.id.btnRegister);
         btnLogin = (Button) findViewById(R.id.btnLogin);
