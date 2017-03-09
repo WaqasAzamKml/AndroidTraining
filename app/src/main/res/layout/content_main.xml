@@ -38,6 +38,11 @@
             android:text="Login"
             android:textColor="#fff"
             android:background="@color/colorPrimaryDark"/>
+        <CheckBox
+            android:id="@+id/chkRememberUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

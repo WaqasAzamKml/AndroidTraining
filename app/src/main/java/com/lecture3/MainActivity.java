@@ -13,11 +13,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     Button btnRegister, btnLogin;
+    CheckBox chkRememberUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +41,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         btnRegister = (Button) findViewById(R.id.btnRegister);
         btnLogin = (Button) findViewById(R.id.btnLogin);
+
+        chkRememberUser = (CheckBox) findViewById(R.id.chkRememberUser);
+        chkRememberUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CheckBox chk = (CheckBox) v;
+                if(chk.isChecked()){
+                    Toast.makeText(MainActivity.this, "Remember User Checked", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(MainActivity.this, "Unchecked", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
